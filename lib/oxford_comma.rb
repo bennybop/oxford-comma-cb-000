@@ -1,6 +1,6 @@
 def oxford_comma(array)
   array.length < 2
-  array.join
+  array.join || array.split("and")
   array.split("and")
 
 end
